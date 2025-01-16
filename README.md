@@ -32,3 +32,59 @@ If you want to set up this project on your local machine, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yvr1234/Project.git
+
+2. Navigate to the project directory:
+
+cd chat-application
+
+
+3. Set up a Python virtual environment:
+
+python -m venv venv
+
+
+4. Activate the virtual environment:
+
+For Windows:
+
+.\venv\Scripts\activate
+
+For macOS/Linux:
+
+source venv/bin/activate
+
+
+
+5. Install the required dependencies:
+
+pip install -r requirements.txt
+
+
+6. Set up the database and run migrations:
+
+python manage.py migrate
+
+
+7. Create a superuser to access the Django admin panel:
+
+python manage.py createsuperuser
+
+
+8. Run the development server:
+
+python manage.py runserver
+
+
+9. Open your web browser and go to http://127.0.0.1:8000 to access the application.
+
+
+
+Usage
+
+Once the app is running:
+
+Open http://127.0.0.1:8000 in your web browser.
+
+Sign up for a new account or log in if you already have one.
+
+After logging in, select a user from the available list and start chatting.
