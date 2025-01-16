@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User List</title>
+</head>
+<body>
+    <h2>Users</h2>
+    <div class="left-menu">
+        <div class="toggle-btn" onclick="toggleMenu()">☰ Menu</div>
+        <div class="left-menu-content">
+            {% for user in users %}
+                <p><a href="{% url 'chat' user.id %}">{{ user.username }}</a></p>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
