@@ -31,4 +31,4 @@ If you want to set up this project on your local machine, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chat-application.git
+   git clone https://github.com/yvr1234/Project.git
